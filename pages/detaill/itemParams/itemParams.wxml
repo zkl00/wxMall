@@ -1,0 +1,10 @@
+<!--pages/detaill/itemParams/itemParams.wxml-->
+<view class="detailInfo_warp">
+  <view class="top"></view>
+  <view class="comtent">{{detailInfo.desc}}</view>
+  <view class="bottom"></view>
+  <view class="textFont">{{detailInfo.detailImage[0].key}}</view>
+  <view class="newImge">
+    <image wx:for="{{detailInfo.detailImage[0].list}}" mode="widthFix" src="{{item}}" wx:key="index" />
+  </view>
+</view>

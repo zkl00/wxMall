@@ -1,0 +1,8 @@
+<view class='recommend'>
+      <view class='poration' wx:for="{{recommend}}" wx:key="index">
+        <image mode='widthFix'  class='logo' src='{{item.image}}'/>
+        <view>{{item.title}}</view>
+      </view>
+  </view>
+  <!--  -->
+  <view class='heightBox'></view>

@@ -1,0 +1,6 @@
+/* template/swirt/swirt.wxss */
+/* 轮播图 */
+.swiper_item image{
+  width: 100%;
+  height: 100%;
+}

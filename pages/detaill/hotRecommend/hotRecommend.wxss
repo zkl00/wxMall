@@ -1,0 +1,46 @@
+/* pages/detaill/hotRecommend/hotRecommend.wxss */
+.hont_warp{
+  padding-bottom: 100rpx;
+}
+.redcomment_baox{
+  display: flex;
+  /* width: 100%; */
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding: 0  10rpx;
+}
+.left{
+  padding-bottom: 20rpx;
+}
+.hot{
+  padding: 30rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.imgds{
+  width: 100%;
+  /* height: 263.516px; */
+}
+.title{
+  width: 350rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+.icon{
+  width: 35rpx;
+  height: 35rpx;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40rpx;
+}
+.imgesicon{
+  display: flex;
+}
+.top{
+  margin-top: 3rpx;
+}
+

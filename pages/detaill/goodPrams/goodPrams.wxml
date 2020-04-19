@@ -1,0 +1,31 @@
+<!--pages/detaill/goodPrams/goodPrams.wxml-->
+<view class="goodPrams">
+  <view class="goodPrams_title">
+    <view class="shopLogo">
+      <image mode="widthFix" src="{{goodlist.shopLogo}}"/>
+    </view>
+    <view class="title">{{goodlist.name}}</view>
+  </view>
+  <view class="count">
+    <view class="leftBox">
+    <view class="leftCoentn">
+      <view>{{goodlist.names}}万</view>
+      <view>销售总量</view>
+      </view>
+      <view class="leftCoentn">
+      <view>{{goodlist.cGoods}}</view>
+      <view class="body">全部宝贝</view>
+      </view>
+    </view>
+    <view class="right">
+    <view class="miao" wx:for="{{goodlist.score}}" wx:key="index">
+      <view class="names">{{item.name}}</view>
+      <view class="countList">{{item.score}}</view>
+      <view class="{{item.isBetter === false ? 'red':'green'}}"  >{{item.isBetter === false ? '低':'高'}}</view>
+    </view>
+    </view>
+  </view>
+  <view class="btns">
+  <van-button color="#7232dd" plain  bindtap="btnClick">进店逛逛</van-button>
+  </view>
+</view>

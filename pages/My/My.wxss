@@ -1,0 +1,65 @@
+/* pages/My/My.wxss */
+.my_warp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 30rpx;
+    background: #ff8198;
+}
+.loginimg{
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.prss{
+  padding: 10rpx 0;
+}
+.log{
+  text-align: center;
+}
+.shie{
+  color: #fff;
+}
+/* 我的余额 */
+.price{
+  display: flex;
+padding-bottom: 20rpx;
+  border-bottom: 15rpx solid #eeee;
+}
+.newprice{
+  color: red;
+  font-size: 32rpx;
+  padding: 10rpx 0;
+}
+.newprice text{
+  color: black;
+  font-size: 28rpx;
+  
+}
+.piece_box{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #eeee;
+  padding: 30rpx 0;
+}
+/* 消息部分 */
+.message_box{
+  border-bottom: 15rpx solid #eeee;
+}
+.message{
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+}
+.icon{
+  font-size: 50rpx;
+  padding: 0 10rpx;
+}
+.mmessagePat{
+  border-bottom: 1px solid #eeee;
+  padding-bottom: 10rpx;
+  width: 100%;
+}
+/* 购物车部分 */

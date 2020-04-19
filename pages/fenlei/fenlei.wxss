@@ -1,0 +1,21 @@
+/* pages/fenlei/fenlei.wxss */
+.category_flex{
+  display: flex;
+}
+.left-wart{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  text-align: center;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0 10rpx;
+}
+.contnt{
+  padding: 10rpx 0;
+  /* border: 1px solid red; */
+}
+.imgUrl{
+  width: 160rpx;
+  height:160rpx;
+}

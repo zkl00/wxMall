@@ -1,0 +1,20 @@
+<!--pages/detaill/goods/goods.wxml-->
+<view class="goods">
+	<!-- {{goods}} -->
+	<view class="title">{{goods.itemInfo.title}}</view>
+	<view class="newprice">
+		<view class="price">{{goods.itemInfo.price}}</view>
+		<view class="lowPrice">{{goods.itemInfo.lowPrice}}</view>
+		<view class="discountDesc" style="background:{{goods.itemInfo.discountBgColor}}"> {{goods.itemInfo.discountDesc}}</view>
+	</view>
+  <view class="shopInfo">
+    <view>{{goods.columns[0]}}</view>
+    <view>{{goods.columns[1]}}</view>
+    <view>{{goods.services[3].name}}</view>
+  </view>
+  <view class="box-icon">
+  <view class="icont"  wx:for="{{goods.services}}" wx:key="index">
+    <view>{{item.name==='72小时发货'?'':item.name}}</view>
+  </view>
+  </view>
+</view>

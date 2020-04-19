@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "detileWswart":"../../template/detileWswart/detileWswart",
+    "goods":"./goods/goods",
+    "goodPrams":"./goodPrams/goodPrams",
+    "itemParams":"./itemParams/itemParams",
+    "measurelist":"./measurelist/measurelist",
+    "rate":"./rate/rate",
+    "hotRecommend":"./hotRecommend/hotRecommend",
+    "van-goods-action": "../../miniprogram_npm/vant-weapp/goods-action",
+    "van-goods-action-icon": "../../miniprogram_npm/vant-weapp/goods-action-icon",
+    "van-goods-action-button": "../../miniprogram_npm/vant-weapp/goods-action-button"
+  },
+  "navigationBarTitleText": "商品详情"
+}

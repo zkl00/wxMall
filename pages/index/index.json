@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "swirt":"../../template/swirt/swirt",
+    "recommend":"w-recommend/recommend",
+    "propulrs":"propulr/propulr"
+  },
+  "navigationBarTitleText": "购物街"
+}

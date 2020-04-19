@@ -1,0 +1,4 @@
+/* pages/index/propulr/propulr.wxss */
+.propulr image{
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+/* pages/detaill/detaill.wxss */
+.postLogo{
+  position: fixed;
+  z-index: 100;
+  bottom:100rpx;
+  right: 10rpx;
+
+}
+.postLogo image{
+  width: 100rpx;
+  height: 100rpx;
+}

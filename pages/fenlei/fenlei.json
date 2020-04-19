@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-sidebar": "@vant/weapp/sidebar",
+    "van-sidebar-item": "@vant/weapp/sidebar-item"
+  },
+  "navigationBarTitleText": "分类列表"
+}

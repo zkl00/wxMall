@@ -1,0 +1,28 @@
+/* pages/detaill/itemParams/itemParams.wxss */
+.detailInfo_warp{
+  padding-bottom: 20rpx;
+  border-bottom: 10rpx solid #eee;
+}
+.top{
+  width: 300rpx;
+  border-bottom: 5rpx solid #9999;
+  padding: 10rpx;
+  margin-left: 30rpx;
+}
+.comtent{
+  padding: 20rpx;
+}
+.bottom{
+  width: 300rpx;
+  border-bottom: 5rpx solid #9999;
+  padding: 10rpx;
+  float: right;
+  margin-right: 30rpx;
+}
+.textFont{
+  padding: 30px 0;
+  margin-left: 30rpx;
+}
+.newImge image{
+  width: 100%;
+}

@@ -1,0 +1,4 @@
+<!--pages/index/propulr/propulr.wxml-->
+<view class='propulr'>
+  <image src='/images/home/recommend_bg.jpg' mode='widthFix'/>
+</view>

@@ -1,0 +1,53 @@
+<!--pages/My/My.wxml-->
+<!-- 登录部分 -->
+<view class="my_warp">
+  <view class="loginimg">
+    <van-uploader file-list="{{ fileList }}"   max-count="1"  deletable="{{false}}" />
+    <view class="log">
+      <view class="prss">登录/注册</view>
+      <view><van-icon name="phone-o" />暂无手机绑定</view>
+    </view>
+  </view>
+  <view class="shie">></view>
+</view>
+<!-- 余额部分 -->
+<view class="price">
+  <view class="piece_box">
+    <view class="newprice">0.00  <text>元</text> </view>
+    <view>我的余额</view>
+  </view>
+   <view class="piece_box">
+    <view  class="newprice"> 0 <text>个</text> </view>
+    <view>我的优惠</view>
+  </view>
+   <view class="piece_box">
+    <view  class="newprice">0 <text>分</text> </view>
+    <view>我的积分</view>
+  </view>
+</view>
+<!-- 消息部分 -->
+<view class="message_box">
+  <view class="message">
+    <van-icon name="comment-o" class="icon" />
+    <view class="mmessagePat">我的消息</view>
+  </view>
+   <view class="message">
+   <van-icon name="point-gift-o" class="icon" />
+    <view class="mmessagePat">积分商城</view>
+  </view>
+   <view class="message">
+    <van-icon name="vip-card-o" class="icon" />
+    <view class="mmessagePat">会员卡</view>
+  </view>
+</view>
+<!-- 购物车部分 -->
+<view class="message_car">
+  <view class="message">
+   <van-icon name="shopping-cart-o"  class="icon" />
+    <view class="mmessagePat"  >我的购物车</view>
+  </view>
+   <view class="message">
+  <van-icon name="down" class="icon" />
+    <view class="mmessagePat">下载购物App</view>
+  </view>
+</view>

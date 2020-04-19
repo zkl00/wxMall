@@ -1,0 +1,13 @@
+<!--pages/detaill/measurelist/measurelist.wxml-->
+<view class="measure_warp">
+  <view class="tabr" wx:for="{{measure.rule.tables}}" wx:for-item="table" wx:key="index">
+    <view wx:for="{{table}}" wx:for-item="list" class="list" wx:key="index">
+      <view wx:for="{{list}}" wx:key="index">{{item}}</view>
+    </view>
+  </view>
+
+    <view class="tabr" wx:for="{{measure.info.set}}" class="info" wx:key="index"> 
+      <view class="key">{{item.key}}</view>
+      <view class="value">{{item.value}}</view>
+  </view>
+</view>

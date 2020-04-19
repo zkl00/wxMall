@@ -1,0 +1,13 @@
+<!--pages/fenlei/fenlei.wxml-->
+<!-- <text>pages/fenlei/fenlei.wxml</text> -->
+<view class="category_flex">
+<van-sidebar active-key="{{ activeKey }}"  >
+  <van-sidebar-item title="{{item.title}}" wx:for="{{category}}" wx:key="index" data-maitKey="{{item.maitKey}}" bindtap="clickActive"/>
+</van-sidebar>
+<view class="left-wart">
+  <view class="contnt" wx:for="{{context}}">
+   <image src="{{item.image}}" mode="widthFix" class="imgUrl" />
+   <view class="title">{{item.title}}</view>
+  </view>
+</view>
+</view>

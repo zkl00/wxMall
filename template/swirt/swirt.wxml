@@ -1,0 +1,12 @@
+<view class='swirt'>
+  <swiper indicator-dots
+          indicator-active-color='#ff5777'
+          autoplay
+          circular  >
+    <block wx:for='{{list}}' wx:key='index'>
+      <swiper-item class='swiper_item' >
+        <image mode='widthFix' mode='scaleToFill' src='{{item.image}}'/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

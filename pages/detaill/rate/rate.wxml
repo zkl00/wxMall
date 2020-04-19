@@ -1,0 +1,18 @@
+<!--pages/detaill/rate/rate.wxml-->
+<view class="rate_warp">
+  <view class="title_box">
+    <view>用户评论</view>
+    <view>更多</view>
+  </view>
+  <view class="img">
+    <view class="newIMge">
+      <image src="{{rateList.user.avatar}}"/>
+    </view>
+    <view class="user">{{rateList.user.uname}}</view>
+  </view>
+  <view class="conntnt">{{rateList.content}}</view>
+  <view class="formdata">
+    <view class="times">{{rateList.time}}</view>
+    <view>{{rateList.style}}</view>
+  </view>
+</view>

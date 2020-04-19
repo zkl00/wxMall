@@ -1,0 +1,40 @@
+<!--1 轮播图 -->
+<swirt list="{{banner}}" />
+<!--2. 推荐 -->
+<recommend recommend='{{recommend}}' />
+<!-- 本周流行 -->
+<propulrs/>
+<view class='propuleBox'>
+  <block wx:for='{{lists}}' wx:key='index'>
+    <view class='propmmend'>
+      <view bindtap='myClick' data-index='{{index}}' class='{{color== index?"active":""}}'>
+        {{item}}
+      </view>
+    </view>
+  </block>
+</view>
+
+<!-- 渲染 -->
+<view class='goods'>
+  <block wx:for="{{goods[proptype].list}}" wx:key="index">
+    <view class='gooods_box'>
+      <view class='a'>
+        <image class='imgs' src="{{item.show.img}}" mode='widthFix'  data-index="{{item.iid}}" bindtap="onClikDetaile"></image>
+        <!-- 表题 -->
+        <view class='titleBox'>
+          <view class='title'>{{item.title}}</view>
+        </view>
+        <!-- 人命币 -->
+        <view class='price'>
+          <text class='rmb'>￥{{item.price}}</text>
+          <image class='icon' src='/images/common/favor.png'></image>
+          <text class='cfav'>{{item.cfav}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+ <!-- 下拉图标 -->
+  <view class='postLogo' bindtap='topBlick' wx:if="{{active_info}}">
+  <image src='/images/common/top.png'></image>
+</view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-uploader": "@vant/weapp/uploader",
+    "van-icon": "@vant/weapp/icon/index"
+  },
+  "navigationBarTitleText": "我的"
+}

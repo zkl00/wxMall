@@ -1,0 +1,19 @@
+.heightBox{
+  height: 10rpx;
+  background: #eeee;
+  margin:20rpx 0; 
+}
+.recommend{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.poration view{
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+}
+.logo{
+   width:160rpx;
+}

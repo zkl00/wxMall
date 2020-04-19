@@ -1,0 +1,26 @@
+/* pages/detaill/rate/rate.wxss */
+.rate_warp{
+  border-bottom: 10rpx solid #f2f5f8;
+}
+.title_box{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx 20rpx;
+  border-bottom: 10rpx solid #f2f5f8;
+}
+.newIMge image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.img,.conntnt,.formdata{
+  display: flex;
+  align-items: center;
+  padding: 20rpx 20rpx;
+}
+.times{
+  padding: 0 20rpx;
+}
+.user{
+  padding: 0 20rpx;
+}

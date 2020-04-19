@@ -1,0 +1,20 @@
+<!--pages/detaill/hotRecommend/hotRecommend.wxml-->
+<view class="hont_warp">
+	<view class="hot">热门推荐</view>
+	<view class="redcomment_baox">
+		<view class="left" wx:for="{{hotRecommend}}" wx:key="index">
+			<image src="{{item.image}}" class="imgds" mode="widthFix" />
+			<view class="title">{{item.title}}</view>
+			<view class="price">
+				<view class="price_arp">￥{{item.price}}</view>
+				<view class="imgesicon">
+					<view class="top">
+						<image class='icon' src='/images/common/favor.png'></image>
+					</view>
+					<view> <text>{{item.cfav}}</text></view>
+				</view>
+			</view>
+		</view>
+		<!-- <view class="right"></view> -->
+	</view>
+</view>

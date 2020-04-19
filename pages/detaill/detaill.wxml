@@ -1,0 +1,29 @@
+<view class="detile">
+<!-- 轮播图 -->
+  <detileWswart topImge="{{topImge}}"/>
+<!-- 获取商品信息 -->
+<goods goods="{{goods}}" />
+<!-- 创建门店信息 -->
+<goodPrams goodlist="{{goodPrams}}" bind:btn="listClick" />
+<!-- 保存商品详情 -->
+<itemParams detailInfo="{{detailInfo}}"/>
+<!-- 创建尺寸measure -->
+<measurelist measure="{{measure}}" />
+<!-- 创建评论信息 -->
+<rate rateList="{{rateList}}"/>
+</view>
+<!-- 热门推荐 -->
+<hotRecommend hotRecommend="{{hotList}}"  class="bottoms"/>
+<van-goods-action>
+  <van-goods-action-icon icon="chat-o" text="客服" dot />
+  <van-goods-action-icon icon="cart-o" text="购物车" info="5" />
+  <van-goods-action-icon icon="shop-o" text="店铺" />
+  <van-goods-action-button text="加入购物车" type="warning" />
+  <van-goods-action-button text="立即购买" />
+</van-goods-action>
+
+<!-- 回到顶部图标 -->
+ <view class='postLogo' bindtap='topBlick' wx:if="{{active_info}}">
+  <image src='/images/common/top.png'></image>
+  </view>
+

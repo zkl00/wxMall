@@ -1,0 +1,43 @@
+/* pages/detaill/goods/goods.wxss */
+.goods{
+  padding: 20rpx 20rpx;
+  border-bottom:10rpx solid #f2f5f8;
+}
+.newprice{
+  display: flex;
+  padding: 15px 0;
+}
+.price{
+  color: #ff5777;
+}
+.price,.lowPrice{
+  padding:0 30rpx;
+}
+.lowPrice{
+  text-decoration: line-through;
+}
+.discountDesc{
+  margin: 0 10rpx;
+  color: #fff;
+  border-radius: 16rpx;
+  /* width: 60rpx; */
+  text-align: center;
+  padding: 4rpx 10rpx;
+}
+.shopInfo{
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.1) ;
+}
+.icont{
+  display: flex;
+}
+.box-icon{
+  display: flex;
+  font-size: 30rpx;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+}
