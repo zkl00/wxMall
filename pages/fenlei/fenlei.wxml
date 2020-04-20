@@ -1,7 +1,7 @@
 <!--pages/fenlei/fenlei.wxml-->
 <!-- <text>pages/fenlei/fenlei.wxml</text> -->
 <view class="category_flex">
-<van-sidebar active-key="{{ activeKey }}"  >
+<van-sidebar active-key="{{ activeKey }}"  custom-class="lefNav">
   <van-sidebar-item title="{{item.title}}" wx:for="{{category}}" wx:key="index" data-maitKey="{{item.maitKey}}" bindtap="clickActive"/>
 </van-sidebar>
 <view class="left-wart">
